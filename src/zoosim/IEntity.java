@@ -7,7 +7,7 @@ package zoosim;
  *
  * @author eshi6
  */
-public interface IEntity {
+public interface IEntity extends IObject{
 
     public void move();
     public void makeSound();
